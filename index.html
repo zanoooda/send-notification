@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Google Firebase / Cloud Messaging / Send Notification</title>
+    </head>
+    <body>
+        <input type="text" id="key" placeholder="Google Firebase / Cloud Messaging / server key"><br>
+        <br>
+        <input type="text" id="title" placeholder="notification title" value="Title"><br>
+        <input type="text" id="body" placeholder="notification body" value="Hello World!"><br>
+        <input type="text" id="icon" placeholder="notification icon url" value="https://icons.iconarchive.com/icons/pelfusion/long-shadow-media/128/Message-Bubble-icon.png"><br>
+        <!-- <input type="text" id="image" placeholder="notification image url" value=""><br> -->
+        <input type="text" id="click-action" placeholder="click action" value="http://info.cern.ch/hypertext/WWW/TheProject.html"><br>
+        <!-- <input type="number" id="time-to-leave" placeholder="click action" value="0"><br> -->
+        <br>
+        <input type="text" id="token" placeholder="token"><br>
+        <br>
+        <button id="send" onclick="sendNotification()">Send Notification</button>
+
+        <script src="send-notification.js"></script>
+    </body>
+</html>
